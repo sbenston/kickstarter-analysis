@@ -44,9 +44,10 @@ Lastly data for the plays subcategory was broken down into brackets based on the
 
 ### Challenges and Difficulties Encountered
 
-One of the challenges in the dataset is the presence of outliers. Most of the goals set in the plays subcategory occurred below the $15,000, there are 16 projects alone that asked for over $50,000 with half of that number asking for over $100,000. The influence of these values in the mean and standard deviation of the failed goals portion of the table are very visible. While the mean was reported, due to these values the mean, upper quartile and lower quartile provide perhaps a clearer picture of trends in the data.
+One of the challenges in the dataset is the presence of potential outliers. Most of the goals set in the plays subcategory occurred below the $15,000, there are 16 projects alone that asked for over $50,000 with half of that number asking for over $100,000. The influence of these values in the mean and standard deviation of the failed goals portion of the table are very visible. While the mean was reported, due to these values the mean, upper quartile and lower quartile provide perhaps a clearer picture of trends in the data.
 
 ## Results
 
 When examining Theater Outcomes by Launch Date the first stand out is that December seems to be the worst month to launch a Kickstarter campaign for plays; on top of having the fewest total campaigns launched, the amount of successful campaigns almost exactly equals those that fail. May appears to be the opposite, having the most total campaigns launching within that month and the most campaigns succeeding when compared to those that failed. June appears to also be a good month to launch a crowd funding play campaign with almost twice the campaigns launching in that month ending in success to those failing.
 
+For Outcomes Based on Goals, the most likely Kickstarter play campaigns to succeed in being funded where those that set their goal amount to less than $1,000, though campaigns $1,000-$5,000 are also likely to succeed. Although the percentage of successes is greater than failure up to $15,000, it is notably less. After that point failures continue to be greater than successes except for a period between $35,000 to $44,000, that period is only 9 campaigns out of 1047 total.
