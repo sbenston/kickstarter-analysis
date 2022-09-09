@@ -49,3 +49,4 @@ One of the challenges in the dataset is the presence of outliers. Most of the go
 ## Results
 
 When examining Theater Outcomes by Launch Date the first stand out is that December seems to be the worst month to launch a Kickstarter campaign for plays; on top of having the fewest total campaigns launched, the amount of successful campaigns almost exactly equals those that fail. May appears to be the opposite, having the most total campaigns launching within that month and the most campaigns succeeding when compared to those that failed. June appears to also be a good month to launch a crowd funding play campaign with almost twice the campaigns launching in that month ending in success to those failing.
+
