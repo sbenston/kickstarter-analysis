@@ -12,7 +12,7 @@ Kickstarter campaigns were analyzed specifically in the theater category to dete
 
 First the data was analyzed via filtering the columns of the spreadsheet to ensure completeness; the dates provided where encoded as Unix timestamps and needed conversion to actual dates for actual analysis. Theater/plays as a total category was also divided into a parent category and subcategory to allow for ease of filtering.
 
-A separate sheet was used to use built-in Excel Function to summarize the data by examining some measures of central tendencies, spread and standard deviation. The data was filtered to only examine campaigns taking place in the US within the plays subcategory and is summurized by the following table:
+A separate sheet was used to use built-in Excel functions to summarize the data by examining some measures of central tendencies, spread and standard deviation. The data was filtered to only examine campaigns taking place in the US within the plays subcategory and is summurized by the following table:
 
 | &nbsp; | Successful | Failed |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ A separate sheet was used to use built-in Excel Function to summarize the data b
 
 ### Analysis of Outcomes Based on Launch Date
 
-The impact of the date when a campaign is launched may have on the outcome of a campaign in the theater parent category was also investigated. To visualize this dataset better, the count successful, failed, or canceled outcomes were plotted against each month of the year; ongoing campaigns were no conclusive outcome can be determined were omitted from the dataset.
+The impact of the date when a campaign is launched may have on the outcome of a campaign in the theater parent category was also investigated. To visualize this dataset better, the count successful, failed, or canceled outcomes were plotted against each month of the year; ongoing campaigns where no conclusive outcome can be determined were omitted.
 
 ![Chart of Outcomes vs. Launch Date](/resources/Theater_Outcomes_vs_Launch.png)
 
@@ -50,4 +50,6 @@ One of the challenges in the dataset is the presence of potential outliers. Most
 
 When examining Theater Outcomes by Launch Date the first stand out is that December seems to be the worst month to launch a Kickstarter campaign for plays; on top of having the fewest total campaigns launched, the amount of successful campaigns almost exactly equals those that fail. May appears to be the opposite, having the most total campaigns launching within that month and the most campaigns succeeding when compared to those that failed. June appears to also be a good month to launch a crowd funding play campaign with almost twice the campaigns launching in that month ending in success to those failing.
 
-For Outcomes Based on Goals, the most likely Kickstarter play campaigns to succeed in being funded where those that set their goal amount to less than $1,000, though campaigns $1,000-$5,000 are also likely to succeed. Although the percentage of successes is greater than failure up to $15,000, it is notably less. After that point failures continue to be greater than successes except for a period between $35,000 to $44,000, that period is only 9 campaigns out of 1047 total.
+For Outcomes Based on Goals, the most likely Kickstarter play campaigns to succeed in being funded where those that set their goal amount to less than $1,000, though campaigns $1,000-$4,999 are also likely to succeed. Although the percentage of successes is greater than failure up to $15,000, the percentages of campaigns that succeed to those that fail approach equality where either instance is likely. After that point failures continue to be greater than successes except for a period between $35,000 to $44,000, that period is only 9 campaigns out of 1047 total.
+
+Based on these analyses, campaigns that ran in May or June for under $4,999 are the most likely ones to succeed in reaching their funding goals. While not examined at this time, analyzing the data to determine the effects of either being a staff pick or Kickstarter spotlight campaign could be worthwhile to check for being potential influences on the outcome. Another area that may influence campaign outcomes could be the actual content of the play. Since this dataset includes blurbs to describe the campaign, using Natural Language Processing to break down the blurb into key phrases and counting frequencies may yield themes that are more likely to get funding and could be worth investigating.
