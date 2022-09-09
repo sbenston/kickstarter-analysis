@@ -30,28 +30,22 @@ A separate sheet was used to use built-in Excel Function to summarize the data b
 | LQ Pledged | $1,717 | $9 |
 | IQR Pledged | $3,982 | $492 |
 
+### Analysis of Outcomes Based on Launch Date
+
 The impact of the date when a campaign is launched may have on the outcome of a campaign in the theater parent category was also investigated. To visualize this dataset better, the count successful, failed, or canceled outcomes were plotted against each month of the year; ongoing campaigns were no conclusive outcome can be determined were omitted from the dataset.
 
 ![Chart of Outcomes vs. Launch Date](/resources/Theater_Outcomes_vs_Launch.png)
 
-Lastly data for the plays subcategory was broken down into brackets based on the campaign's desired goal to find the percentage of projects that were successful, failed or canceled in each bracket. Brackets were broken into increments of $5,000 except for the lower $1,000 and anything over $50,000. A line chart visualizing the percentages of each outcome plotted vs. the goal bracket was produced.
+### Analysis of Outcomes Based on Goals
+
+Lastly data for the plays subcategory was broken down into brackets based on the campaign's desired goal to find the percentage of projects that were successful, failed or canceled in each bracket. Brackets were broken into increments of $5,000 except for those under $1,000 and anything over $50,000. A line chart visualizing the percentages of each outcome plotted vs. the goal bracket was produced.
 
 ![Chart of Outcomes vs. Goals](/resources/Outcomes_vs_Goals.png)
 
-### Analysis of Outcomes Based on Launch Date
-
-
-
-### Analysis of Outcomes Based on Goals
-
 ### Challenges and Difficulties Encountered
+
+One of the challenges in the dataset is the presence of outliers. Most of the goals set in the plays subcategory occurred below the $15,000, there are 16 projects alone that asked for over $50,000 with half of that number asking for over $100,000. The influence of these values in the mean and standard deviation of the failed goals portion of the table are very visible. While the mean was reported, due to these values the mean, upper quartile and lower quartile provide perhaps a clearer picture of trends in the data.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
+When examining Theater Outcomes by Launch Date the first stand out is that December seems to be the worst month to launch a Kickstarter campaign for plays; on top of having the fewest total campaigns launched, the amount of successful campaigns almost exactly equals those that fail. May appears to be the opposite, having the most total campaigns launching within that month and the most campaigns succeeding when compared to those that failed. June appears to also be a good month to launch a crowd funding play campaign with almost twice the campaigns launching in that month ending in success to those failing.
